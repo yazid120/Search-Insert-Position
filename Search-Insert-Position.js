@@ -3,6 +3,11 @@
  * @param {number} target
  * @return {number}
  */
+
+ /**
+ * Method: Binary search 
+ * Complexity: O(log n)
+ */
 var searchInsert = function(nums, target) {
     let left = 0;
     let right = nums.length - 1;
